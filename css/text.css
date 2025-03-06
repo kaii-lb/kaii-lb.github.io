@@ -27,3 +27,15 @@ p {
 .link_underline:hover {
     color: var(--clickable-container-color);
 }
+
+.project_title {
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.project_title:hover {
+    text-decoration: underline;
+}
