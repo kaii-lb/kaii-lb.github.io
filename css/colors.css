@@ -1,0 +1,15 @@
+:root {
+    --background-color: #1e171b;
+    --surface-color: #4b1535;
+    --surface-variant-color: #352b5b;
+    --primary-color: #beaedb;
+    --secondary-color: #8b68d1;
+    --tertiary-color: #d183a9;
+    --text-color: #bfb2be;
+    --clickable-container-color: #674f5c;
+}
+
+i {
+    color: var(--text-color);
+    padding: 4px 8px;
+}

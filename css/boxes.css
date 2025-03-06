@@ -1,0 +1,72 @@
+.description_box {
+    padding: 4vw 12vw 0vw 12vw;
+    max-width: 40vw;
+}
+
+.separator {
+    background-color: var(--primary-color);
+    height: 0.1vh;
+}
+
+.separator_light {
+    background-color: var(--primary-color);
+    height: 0.1vh;
+    opacity: 0.2;
+}
+
+.main_photo_container {
+    padding: 6vw 0vw 0vw 2vw;
+    text-align: center;
+}
+
+.profile_photo {
+    border-radius: 50%;
+    margin-bottom: 16px;
+    max-height: 40vh;
+}
+
+.skills_container {
+    padding: 0vw 12vw 0vw 12vw;
+}
+
+.language_container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.language_item {
+    /* background-color: var(--surface-color); */
+    /* border-radius: 24px; */
+    border-color: var(--text-color);
+    border-width: 1px;
+    border-style: solid;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 0px 16px;
+    margin-left: 24px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.language_icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.link_icon {
+    width: 20px;
+    height: 20px;
+    color: white;
+}

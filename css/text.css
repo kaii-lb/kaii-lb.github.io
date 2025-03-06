@@ -1,0 +1,29 @@
+.main_title {
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    color: var(--text-color);
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.link:hover {
+    color: var(--secondary-color);
+}
+
+.link_underline {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.link_underline:hover {
+    color: var(--clickable-container-color);
+}
